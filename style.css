@@ -1,0 +1,300 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500&family=Oxanium:wght@300;400&family=Red+Hat+Display:wght@300;400&family=Saira:wght@200;300;500&family=Unbounded&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&family=Unbounded&display=swap');
+@import 'boxicons';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222424;
+
+}
+
+/* main nav bar */
+.main-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    margin-right: 50px;
+}
+
+.main-logo {
+    position: relative;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    margin-top: 15px;
+
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Unbounded", sans-serif;
+    font-size: 12px;
+    padding: 0 12px;
+
+
+}
+
+.nav-link:hover {
+    color: #1EF169;
+    text-shadow: 0 0 8px #1EF169;
+    transition: color 0.4s ease-in-out, text-shadow 0.4s ease-in-out;
+}
+
+.dot {
+    color: #fff;
+    padding: 10px;
+}
+
+
+.second-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.lang {
+    position: relative;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 100;
+    color: #fff;
+    font-size: 10px;
+    margin-right: 10px;
+
+}
+
+
+.sami-circle img {
+    width: 50%;
+
+}
+
+.discount {
+    position: relative;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.discount p {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+}
+
+.discount span {
+    color: #1EF169;
+    text-shadow: 0 0 8px #1EF169;
+}
+
+.main-heading {
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.main-heading p {
+    font-family: "Unbounded", sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.sub-pag {
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.sub-pag p {
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.main-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: -200vh;
+    margin-top: -300px;
+}
+
+.strat {
+    display: flex;
+    position: relative;
+    margin-left: 90px;
+
+}
+
+.strat p {
+    font-family: "Unbounded", sans-serif;
+    color: white;
+    font-size: smaller;
+}
+
+.strat p:hover {
+    color: #1EF169;
+    text-shadow: 0 0 8px #1EF169;
+}
+
+.arrow {
+    position: relative;
+    margin-left: 20px;
+    top: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #1EF169;
+    box-shadow: 0 0 8px #1EF169;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.arrow img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    top: 12px;
+    left: 12px;
+}
+
+/* side profile */
+
+.status-block{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-left: 70%;
+    margin-top: -31%;
+}
+
+
+.status-bio {
+    display: inline-block;
+    margin-left: 82%;
+}
+
+.user h1 {
+    font-family: "Unbounded", sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+
+.user p {
+    position: relative;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-weight: 200;
+    top: 7px;
+}
+
+.status-bar {
+    position: relative;
+    height: 100px;
+    width: 1px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transform: rotate(90deg);
+    box-shadow: 0 0 8px #1EF169;
+}
+
+
+
+svg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #1EF169;
+    box-shadow: 0 0 12px #1EF169;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    top: 70px;
+
+}
+
+.circular-text {
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 5px;
+    fill: #222424;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.inner-arrow {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 135px;
+    top: -65px;
+    transform: rotate(-30deg);
+}
+
+
+/* main-serve */
+.main-serve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10%;
+}
+
+.fast h1, .online h1{
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size: x-large;
+}
+
+.fast p, .online p{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.bar-2{
+    background-color: #fff;
+    box-shadow: 0 0 10px #1EF169;
+    height: 80px;
+    width: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* right end image */
+.right-end{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: -9%;
+}
